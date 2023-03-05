@@ -1,0 +1,43 @@
+body {
+    font-family:"Arial";
+    font-size:90%;
+    }
+   form {
+    background-color:rgb(216 141 211 / 32%);    
+    padding:10px;
+   
+    }
+   
+   input, textarea, select, option {
+    background-color:rgb(119 32 201 / 19%);
+    }
+   input, textarea, select {
+    padding:3px;
+    border:1px solid #0b0909;
+    }
+    label{
+        
+        font-family:fantasy;
+    }
+
+   select {
+    color: palevioletred;
+    margin-top:10px;
+    }
+   input[type=radio] {
+    background-color:palevioletred;
+    border:none;
+    width:10px;
+    }
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px #131313;
+    cursor:pointer;
+    }
+    input[type=submit]{
+        color: palevioletred;
+    }
+    input[type=reset]{
+        color: palevioletred;
+    }
